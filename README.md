@@ -1,2 +1,2 @@
 # IWT
-Download the repository and run PROJECT.html
+Please download the repository and run PROJECT.html
