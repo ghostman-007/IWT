@@ -1,0 +1,103 @@
+<html>
+<head>
+<title>Table Tag</title>
+<style>
+table	{	border-collapse:collapse;	}
+th,td	{	text-align:left;
+			font-family:cambria;}
+tr	{	background-color:green;	
+		color:white;	
+	}
+tr:nth-child(even)	{	background-color:gray;	}
+</style>
+</head>
+<body style="background-image:url(../Images/12.jpg);">
+<br>
+<center><h2>Table Tag</h2></center>
+<br>
+<br>
+Tables are used on a web page to organize data in the form of horizontal rows and vertical columns. The use of tables simplifies complex and bulky data making.
+<br>Each table is made up of a fixed number of rows and columns. The rectangular are formed at the intersecton of a row and a column is called a <b>cell.
+</b> We enter data in the cells. Mostly a table contains a header row which specifies what items should come in the columns below.
+<br><br><h3>The &lt;Table&gt; Tag</h3>
+In HTML tables are created by using the  tag. The &lt;table&gt; tag is a container tag therefore you we close it by using a colsing tag .
+Everthing within a table is enclosed between these two 'tags' which are both required.
+<br><br><b>Syntax : </b>&lt;table&gt;........&lt;/table&gt;
+<br>The &lt;table tag has following attributes:
+<br><br>
+<table align=center cellpadding=10 border=1 width=80% bordercolor=navy>
+	<tr><th style="text-align:center;color:black">Attribute</th>
+		<th style="text-align:center;color:black">Use</th>
+		<th style="text-align:center;color:black">Example</th>
+	</tr>
+	
+	<tr><th>align</th>
+		<th>Specifies the horizontal position of the table within the web page window. The value of this attribute may be left, center or right.</th>
+		<th>&lt;table align=left&gt;</th>
+	</tr>
+	
+	<tr><th>width</th>
+		<th>Controls the width of the entire table.</th>
+		<th>&lt;table width=100%&gt;</th>
+	</tr>
+	
+	<tr><th>cellspacing</th>
+		<th>Adds space between the cells. The spacing between cells is given in pixils.</th>
+		<th>&lt;table cellspacing=20&gt;</th>
+	</tr>
+	
+	<tr><th>cellpadding</th>
+		<th>Adds space around cell contents.</th>
+		<th>&lt;table cellpadding=10</th>
+	</tr>
+
+	<tr><th>valign</th>
+		<th>Lets you align the cell contents in the table to the top or to the bottom in the cells.</th>
+		<th>&lt;table valign=top/bottom&gt;</th>
+	</tr>
+	
+	<tr><th>border</th>
+		<th>Gives a border to a table. Border is thickness specified in pixils.</th>
+		<th>&lt;table border=2&gt;</th>
+	</tr>
+	
+	<tr><th>bordercolor</th>
+		<th>Adds a colour to the border of a row or a cell.</th>
+		<th>&lt;table bordercolor=navy&gt;</th>
+	</tr>
+	
+	<tr><th>bgcolor</th>
+		<th>Adds a colour to the background of a row or cell.</th>
+		<th>&lt;table bgcolor=yellow&gt;</th>
+	</tr>
+</table>
+
+<br><br><h3>The &lt;tr&gt;, &lt;th&gt; and &lt;td&gt; tags</h3>
+The table tag itself is of no use unless the &lt;tr&gt;, &lt;th&gt; and &lt;td&gt; tags are used to create other elements of the table.
+<ol>
+	<li>The &lt;tr&gt; tag creates a new row in the table. It is a container tag and needs to be closed with the &lt;/tr&gt; tag.
+	<li>The &lt;th&gt; tag is used within the &lt;tr&gt; tag and creates a header cell of the table. It is also a container tag and needs to be closed with the &lt;/th&gt; tag.
+		The header cell data is enclosed within these two tags.
+	<li>The &lt;td&gt; tag is also used within the &lt;tr&gt; tag and that is to appear in a data cell.
+</ol>
+<br><br><h3>The Attributes of &lt;td&gt; and &lt;th&gt; tags</h3>
+<br><br>
+<table align=center cellpadding=10 border=1 width=80% bgcolor=green bordercolor=red>
+	<tr><th style="text-align:center;color:black">Attribute</th>
+		<th style="text-align:center;color:black">Use</th>
+		<th style="text-align:center;color:black">Example</th>
+	</tr>
+	
+	<tr><th>rowspan</th>
+		<th>This attribute allows us to extend a row vertically by a given number of cells.</th>
+		<th>&lt;td rowspan=3&gt; will extend the current row down to include the next three cells.</th>
+	</tr>
+	
+	<tr><th>colspan</th>
+		<th>This attribute allows us to extend a columns horizontal by a given number of cells.</th>
+		<th>&lt;td colspan=3&gt; will extend the current column rightwards to include the next three cells.</th>
+	</tr>
+</table>
+<br><br>
+</body>
+</html>

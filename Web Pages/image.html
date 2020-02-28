@@ -1,0 +1,58 @@
+<html>
+<head>
+<title>Image in Web Page</title>
+</head>
+<body style="background-image:url(../Images/1.jpg);">
+<br>
+<center><h2>Adding Image to Web Page</h2></center>
+<br>We can add images to a web page in two ways:
+<br>
+<OL>
+	<li>In the background of a web page, using the 'background' attribute of the body tag.
+	<li>In the foreground on a web page, using the 'src' attribute of the img tag.
+</OL>
+
+<br><b>Adding an Image in the background</b>
+The background attribute of the body tags lets you add an image in the background of a web page. 
+<br><b>Syntax : </b>body background = "Location of the file"
+
+<br><br><b>Adding an Image in the Foreground</b>
+To set an image in the foreground, we can use the img tag with the 'src' attribute. This location of the image is specified with the src attribute. If the image file
+is in the same folder as the HTML document, we need to give only the file name with the src attribute.
+<br><b>Syntax : </b>&lt;img src="Location of the file"&gt;
+<br><br>
+<table align=center width=70% border=1 cellpadding=10 style="border-collapse:collapse">
+	<tr><th>Tag/Attribute</th>
+		<th>Description</th>
+		<th>Syntax</th>
+	</tr>
+	
+	<tr><th>src</th>
+		<th>This attribute is used to specify the location and name of the image file.</th>
+		<th>&lt;img src="location of the file"&gt;</th>
+	</tr>
+	
+	<tr><th>align</th>
+		<th>This attribute is used to specify the position of image in the web page. It can have 6 positions which are top, middle, bottom, left, center, right.</th>
+		<th>&lt;img align=top&gt;</th>
+	</tr>
+	
+	<tr><th>border</th>
+		<th>This attribute is used to specify the border around the image.</th>
+		<th>&lt;img border=4&gt;</th>
+	</tr>
+	
+	<tr><th>alt</th>
+		<th>This attribute is used to indicate the text to be displayed in case the browser is unable to display the image specified in the src attribute.</th>
+		<th>&lt;img alt="File not found"&gt;</th>
+	</tr>
+</table>
+
+<h2>Image without border</h2>
+<img src="../Images/img.jpg" alt="file not found">
+
+<h2>Image with border</h2>
+<img src="../Images/img.jpg" border=3 alt="file not found">
+
+</body>
+</html>
