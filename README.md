@@ -1,2 +1,3 @@
 # IWT
-Please download the repository and run PROJECT.html
+
+IWT Lab Assignment 👉 https://ghostman-007.github.io/IWT/
